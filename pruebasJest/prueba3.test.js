@@ -1,4 +1,4 @@
-const dividir = require('./prueba3');
+const dividir = require('../prueba3/prueba3');
 
 test('15/3  es igual a 5', () => {
   expect(dividir(15,3)).toBe(5);

@@ -1,4 +1,4 @@
-const comparar = require('./prueba4');
+const comparar = require('../prueba4/prueba4');
 
 test('java es igual a java  return true', () => {
   expect(comparar('java','java')).toBe(true);

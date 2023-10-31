@@ -1,4 +1,4 @@
-const resta = require('./prueba5');
+const resta = require('../prueba5/prueba5');
 
 test('restar 1 - 2 es igual a -1', () => {
   expect(resta(1, 2)).toBe(-1);

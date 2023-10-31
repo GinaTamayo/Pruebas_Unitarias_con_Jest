@@ -1,9 +1,8 @@
-const suma = require('./prueba1');
+const suma = require('../prueba1/prueba1');
 
 test('sumar 1 + 2 es igual a 3', () => {
   expect(suma(1, 2)).toBe(3);
 });
-
 
 test('sumar -3 + 2 es igual a -1', () => {
     expect(suma(-3, 2)).toBe(-1);

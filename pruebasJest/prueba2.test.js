@@ -1,4 +1,4 @@
-const isLowerCase = require('./prueba2');
+const isLowerCase = require('../prueba2/prueba2');
 
 test('JAVASCRIPT return false', () => {
   expect(isLowerCase('JAVASCRIPT')).toBe(false);

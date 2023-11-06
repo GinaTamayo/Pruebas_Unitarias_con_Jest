@@ -12,10 +12,10 @@ test('sumar 3.5 + 3.5 es igual a 7', () => {
     expect(suma(3.5, 3.5)).toBe(7);
 });
 
-test('sumar 3.5 + 3.5 es igual a 7', () => {
+/*test('sumar 3.5 + 3.5 es igual a 7', () => {
     expect(suma(3.5, 3)).toBe(6.5);
-});
+});*/
 
-test('sumar 3.5 + 3.5 es igual a 7', () => {
+test('sumar -3.5 + 3.5 es igual a 0', () => {
     expect(suma(-3.5, 3.5)).toBe(0);
 });

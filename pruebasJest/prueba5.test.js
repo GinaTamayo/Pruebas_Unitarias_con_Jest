@@ -17,5 +17,5 @@ test('restar 5 - (-4) es igual a 9', () => {
   });
 
   test('restar -5 - 9 es igual a 9', () => {
-    expect(resta(-5, 9)).toBe(-14);
+    expect(resta(-5, 10)).toBe(-14);
   });

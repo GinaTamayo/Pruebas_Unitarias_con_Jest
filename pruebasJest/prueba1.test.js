@@ -20,3 +20,7 @@ test('sumar -3.5 + 3.5 es igual a 0', () => {
     expect(suma(-3.5, 3.5)).toBe(0);
 });
 
+
+test('sumar 5 + 8 es igual a 14', () => {
+    expect(suma(5, 8)).toBe(14);
+});

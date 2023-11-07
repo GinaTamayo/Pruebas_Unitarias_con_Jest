@@ -2,7 +2,7 @@ name: Pruebas Unitarias
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
 
 jobs:
   test:
@@ -15,12 +15,10 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v3
       with:
-      node-version: 18
+        node-version: 14
 
-
-    - name: intalar Node.js
+    - name: Instalar Node.js
       run: npm install
-      
 
-     - name: ejecutar Node.js
-       run: npm test
+    - name: Ejecutar Node.js
+      run: npm test
